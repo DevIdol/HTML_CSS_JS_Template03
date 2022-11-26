@@ -342,7 +342,7 @@
     margin-right: 0;
   }
 
-  .sec-main .menu-toggle {
+  #header .menu-toggle {
     display: block;
     position: fixed;
     width: 2.5vw;
@@ -352,7 +352,7 @@
     cursor: pointer;
   }
 
-  .sec-main .menu-toggle span {
+  #header .menu-toggle span {
     position: absolute;
     background-color: #343638;
     width: 2.5vw;
@@ -361,29 +361,29 @@
     transition: 0.6s ease;
   }
 
-  .sec-main .menu-toggle span:nth-child(1) {
+  #header .menu-toggle span:nth-child(1) {
     top: 0;
   }
 
-  .sec-main .menu-toggle span:nth-child(2) {
+  #header .menu-toggle span:nth-child(2) {
     top: 0.938vw;
   }
 
-  .sec-main .menu-toggle span:nth-child(3) {
+  #header .menu-toggle span:nth-child(3) {
     top: 1.875vw;
   }
 
-  .sec-main .menu-toggle.active span:nth-child(1) {
+  #header .menu-toggle.active span:nth-child(1) {
     right: -0.313vw;
     width: 3.125vw;
     transform: translateY(0.938vw) rotate(-45deg);
   }
 
-  .sec-main .menu-toggle.active span:nth-child(2) {
+  #header .menu-toggle.active span:nth-child(2) {
     opacity: 0;
   }
 
-  .sec-main .menu-toggle.active span:nth-child(3) {
+  #header .menu-toggle.active span:nth-child(3) {
     right: -0.313vw;
     width: 3.125vw;
     transform: translateY(-0.938vw) rotate(45deg);
