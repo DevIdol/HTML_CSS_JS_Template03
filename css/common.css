@@ -74,6 +74,110 @@
   display: none;
 }
 
+/* Footer
+=============== */
+.footer {
+  background-color: #a6adb4;
+  padding: 57px 0 50px;
+}
+
+.footer-left {
+  float: left;
+  width: 411px;
+}
+
+.footer-left .sec-title {
+  float: left;
+}
+.footer-left .sec-title a {
+  font-size: 13px;
+  color: #fff;
+  text-align: start;
+}
+.footer-left-lists {
+  float: right;
+}
+.footer-left-lists ul {
+  float: left;
+  margin-right: 40px;
+}
+.footer-left-lists ul:last-child {
+  margin-right: 0;
+}
+.footer-left-lists ul li {
+  padding-bottom: 10px;
+}
+.footer-left-lists ul li a {
+  color: #cbd0d3;
+  font-size: 13px;
+  text-align: start;
+}
+
+.footer-right {
+  float: right;
+  width: 561.24px;
+}
+
+.footer-right .footer-form {
+  float: left;
+  width: 262px;
+}
+
+.footer-form form input,
+.footer-form form input:focus {
+  font-family: "Helvetica";
+  background-color: transparent;
+  font-size: 13px;
+  width: 100%;
+  border: 2px solid #ffffff1a;
+  color: #cbd0d3;
+  padding: 12px 20px;
+  outline: none;
+  border-radius: 6px;
+}
+.footer-form form input::placeholder {
+  color: #cbd0d3;
+}
+.footer-form form {
+  position: relative;
+}
+
+.footer-form form::after {
+  position: absolute;
+  top: 50%;
+  right: 18px;
+  transform: translate(0, -50%);
+  content: "";
+  display: inline-block;
+  background-image: url("../img/common/img_send.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.footer-form p {
+  padding-top: 18px;
+  font-family: "Helvetica";
+  font-size: 11px;
+  color: #cbd0d3;
+}
+
+.footer-right .contact-list {
+  float: right;
+  width: 160px;
+}
+
+.footer-right ul li {
+  float: left;
+  margin-right: 32px;
+}
+.footer-right ul li:last-child {
+  margin-right: 0;
+}
+
 /* iPad View
 =============== */
 @media screen and (min-width: 768px) and (max-width: 1160px) {
@@ -107,6 +211,76 @@
 
   .nav-list li {
     margin-right: 5.208vw;
+  }
+
+  /* Footer
+=============== */
+  .footer {
+    padding: 7.422vw 0 7.161vw;
+  }
+
+  .footer-left {
+    float: none;
+    width: 100%;
+  }
+
+  .footer-left .sec-title a {
+    font-size: 1.693vw;
+  }
+  .footer-left-lists ul {
+    margin-right: 5.208vw;
+  }
+
+  .footer-left-lists ul li {
+    padding-bottom: 1.302vw;
+  }
+  .footer-left-lists ul li a {
+    font-size: 1.693vw;
+  }
+
+  .footer-right {
+    padding-top: 5.339vw;
+    float: none;
+    width: 100%;
+  }
+
+  .footer-right .footer-form {
+    width: 36.979vw;
+  }
+
+  .footer-form form input,
+  .footer-form form input:focus {
+    font-size: 1.693vw;
+    width: 100%;
+    border: 0.26vw solid #ffffff1a;
+    color: #cbd0d3;
+    padding: 1.563vw 2.604vw;
+    border-radius: 0.781vw;
+  }
+
+  .footer-form form::after {
+    top: 50%;
+    right: 2.344vw;
+    width: 2.083vw;
+    height: 2.083vw;
+  }
+
+  .footer-form p {
+    padding-top: 2.344vw;
+    font-size: 1.432vw;
+  }
+
+  .footer-right .contact-list {
+    width: 17.969vw;
+  }
+
+  .footer-right ul li {
+    padding-top: 6.25vw;
+    margin-right: 3.125vw;
+  }
+  .footer-right ul li a img {
+    width: 2.083vw;
+    height: 2.083vw;
   }
 }
 
@@ -213,5 +387,74 @@
     right: -0.313vw;
     width: 3.125vw;
     transform: translateY(-0.938vw) rotate(45deg);
+  }
+  /* Footer
+=============== */
+  .footer {
+    padding: 8.906vw 0 8.594vw;
+  }
+
+  .footer-left {
+    float: none;
+    width: 100%;
+  }
+
+  .footer-left .sec-title a {
+    font-size: 2.031vw;
+  }
+  .footer-left-lists ul {
+    margin-right: 6.25vw;
+  }
+
+  .footer-left-lists ul li {
+    padding-bottom: 1.563vw;
+  }
+  .footer-left-lists ul li a {
+    font-size: 2.031vw;
+  }
+
+  .footer-right {
+    padding-top: 6.406vw;
+    float: none;
+    width: 100%;
+  }
+
+  .footer-right .footer-form {
+    width: 44.375vw;
+  }
+
+  .footer-form form input,
+  .footer-form form input:focus {
+    font-size: 2.031vw;
+    width: 100%;
+    border: 0.313vw solid #ffffff1a;
+    color: #cbd0d3;
+    padding: 1.875vw 3.125vw;
+    border-radius: 0.938vw;
+  }
+
+  .footer-form form::after {
+    top: 50%;
+    right: 2.813vw;
+    width: 2.5vw;
+    height: 2.5vw;
+  }
+
+  .footer-form p {
+    padding-top: 2.813vw;
+    font-size: 1.719vw;
+  }
+
+  .footer-right .contact-list {
+    width: 28.906vw;
+  }
+
+  .footer-right ul li {
+    padding-top: 7.5vw;
+    margin-right: 4.063vw;
+  }
+  .footer-right ul li a img {
+    width: 2.5vw;
+    height: 2.5vw;
   }
 }

@@ -189,7 +189,7 @@
   content: "";
   width: 22px;
   height: 43px;
-  background-image: url("../img/img_left_arrow.png");
+  background-image: url("../img/top/img_left_arrow.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -204,7 +204,7 @@
   content: "";
   width: 22px;
   height: 43px;
-  background-image: url("../img/img_right_arrow.png");
+  background-image: url("../img/top/img_right_arrow.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
