@@ -70,7 +70,7 @@ img {
   margin: 0 auto;
 }
 
-time {
+.time {
   font-family: "Helvetica";
   display: inline-block;
   position: relative;
@@ -78,7 +78,7 @@ time {
   font-size: 13px;
 }
 
-time::before {
+.time::before {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -301,7 +301,7 @@ main {
   padding: 23px 0 6px;
 }
 
-.tab-right-item time pre {
+.tab-right-item .time .underline {
   display: inline-block;
   text-decoration: underline;
 }
@@ -309,8 +309,6 @@ main {
 /*=====================
     Discovery Page
 =======================*/
-
-
 
 .disc-avatar img {
   float: left;
@@ -488,6 +486,7 @@ main {
   height: 300px;
   border-radius: 8px;
 }
+
 /*=====================
     World News Page
 =======================*/
@@ -505,6 +504,7 @@ main {
   float: left;
   width: 580px;
 }
+
 .news-mv-left-content {
   position: absolute;
   top: 51%;
@@ -514,6 +514,7 @@ main {
   width: 360px;
   text-align: center;
 }
+
 .news-mv-left-content h2 {
   padding-bottom: 10px;
   font-size: 32px;
@@ -521,6 +522,7 @@ main {
   position: relative;
   text-transform: uppercase;
 }
+
 .news-mv-left-content h2::after {
   position: absolute;
   left: 0;
@@ -533,6 +535,7 @@ main {
   display: inline-block;
   background-color: #fa6980;
 }
+
 .news-mv-left-content p {
   font-family: "Helvetica";
   font-weight: 700;
@@ -547,6 +550,7 @@ main {
   width: 470px;
   padding-top: 20px;
 }
+
 .news-mv-right h2 {
   width: 380px;
   padding-top: 6px;
@@ -555,30 +559,37 @@ main {
   font-size: 24px;
   text-transform: uppercase;
 }
+
 .news-mv-right-content {
   padding-top: 43px;
 }
+
 .news-mv-right-content h3 {
   color: #fa6980;
   text-transform: uppercase;
 }
+
 .news-mv-right-content h4 {
   padding-top: 16px;
 }
+
 .news-mv-right-content p {
   font-size: 14px;
   line-height: 1.85;
   padding-bottom: 77px;
 }
+
 /* World News Sec02
 ===================== */
 .news-sec02 {
   padding: 80px 0 102px;
 }
+
 .news-sec02-left {
   float: left;
   width: 360px;
 }
+
 .news-sec02-left h2 {
   font-size: 22px;
   line-height: 1.6;
@@ -589,17 +600,20 @@ main {
   float: right;
   width: 760px;
 }
+
 .news-sec02-right p {
   font-family: "Helvetica";
   font-size: 14px;
   line-height: 1.8;
 }
+
 /* World News Sec03
 ===================== */
 .news-sec03-left {
   float: left;
   width: 760px;
 }
+
 .news-sec03-content {
   padding-top: 36px;
   padding-bottom: 32px;
@@ -611,6 +625,7 @@ main {
   font-size: 14px;
   line-height: 1.87;
 }
+
 .news-sec03-content p:nth-child(2) {
   padding-top: 25px;
 }
@@ -629,6 +644,7 @@ main {
 .news-sec04 {
   padding: 40px 0 100px;
 }
+
 .news-sec04 .tabs li {
   float: left;
   color: #202124;
@@ -641,17 +657,20 @@ main {
   transition: 0.6s ease;
   background-color: #fff;
 }
+
 .news-sec04 .tabs li.activeTab,
 .news-sec04 .tabs li:hover {
   background-color: #a6adb4;
   color: #fff;
   transition: 0.6s ease;
 }
+
 .news-sec04 .tab-content {
   background-color: #fff;
   padding-top: 50px;
   padding-bottom: 15px;
 }
+
 .tab-content {
   display: none;
 }
@@ -659,6 +678,7 @@ main {
 .tab-content.activeTab {
   display: inherit;
 }
+
 .news-sec04 .tab-content p {
   font-family: "Helvetica";
   padding-bottom: 29px;
@@ -684,12 +704,12 @@ main {
     font-size: 3.125vw;
   }
 
-  time {
+  .time {
     padding-left: 3.255vw;
     font-size: 1.693vw;
   }
 
-  time::before {
+  .time::before {
     width: 2.083vw;
     height: 2.083vw;
   }
@@ -922,6 +942,7 @@ main {
     padding-top: 1.042vw;
     letter-spacing: 0.052vw;
   }
+
   /* disc-sec02
 =============== */
   .disc-sec02 {
@@ -981,6 +1002,7 @@ main {
     height: 39.063vw;
     border-radius: 1.042vw;
   }
+
   /*=====================
     World News Page
 =======================*/
@@ -998,16 +1020,20 @@ main {
     float: none;
     width: 79.167vw;
   }
+
   .news-mv-left .md {
     width: 100%;
   }
+
   .news-mv-left-content {
     width: 58.073vw;
   }
+
   .news-mv-left-content h2 {
     padding-bottom: 1.302vw;
     font-size: 4.167vw;
   }
+
   .news-mv-left-content h2::after {
     width: 5.208vw;
     height: 0.26vw;
@@ -1024,6 +1050,7 @@ main {
     width: 100%;
     padding-top: 5.078vw;
   }
+
   .news-mv-right h2 {
     width: 100%;
     padding-top: 0.781vw;
@@ -1031,6 +1058,7 @@ main {
     border-bottom: 0.26vw solid #ebeded;
     font-size: 3.125vw;
   }
+
   .news-mv-right-content {
     padding-top: 5.599vw;
   }
@@ -1038,16 +1066,19 @@ main {
   .news-mv-right-content h4 {
     padding-top: 1.302vw;
   }
+
   .news-mv-right-content p {
     font-size: 1.823vw;
     line-height: 1.85;
     padding-bottom: 3.516vw;
   }
+
   /* World News Sec02
 ===================== */
   .news-sec02 {
     padding: 7.943vw 0 7.682vw;
   }
+
   .news-sec02-left {
     float: none;
     width: 100%;
@@ -1063,20 +1094,24 @@ main {
     float: none;
     width: 100%;
   }
+
   .news-sec02-right p {
     padding-top: 3.255vw;
     font-size: 1.823vw;
     line-height: 1.85;
   }
+
   /* World News Sec03
 ===================== */
   .news-sec03 .md {
     width: 79.167vw;
   }
+
   .news-sec03-left {
     float: none;
     width: 100%;
   }
+
   .news-sec03-content {
     padding-top: 4.688vw;
     padding-bottom: 4.167vw;
@@ -1087,6 +1122,7 @@ main {
     font-size: 1.823vw;
     line-height: 1.87;
   }
+
   .news-sec03-content p:nth-child(2) {
     padding-top: 3.255vw;
   }
@@ -1106,11 +1142,13 @@ main {
   .news-sec04 {
     padding: 7.552vw 0 10.417vw;
   }
+
   .news-sec04 .tabs li {
     width: 26.389vw;
     padding: 2.344vw 0;
     font-size: 1.823vw;
   }
+
   .news-sec04 .tab-content {
     padding-top: 3.776vw;
     padding-bottom: 0vw;
@@ -1140,12 +1178,12 @@ main {
     font-size: 3.75vw;
   }
 
-  time {
+  .time {
     padding-left: 3.906vw;
     font-size: 2.031vw;
   }
 
-  time::before {
+  .time::before {
     width: 2.5vw;
     height: 2.5vw;
   }
@@ -1384,6 +1422,7 @@ main {
     padding-top: 1.25vw;
     letter-spacing: 0.063vw;
   }
+
   /* disc-sec02
 =============== */
   .disc-sec02 {
@@ -1443,6 +1482,7 @@ main {
     height: 46.875vw;
     border-radius: 1.25vw;
   }
+
   /*=====================
     World News Page
 =======================*/
@@ -1460,20 +1500,25 @@ main {
     float: none;
     width: 90.625vw;
   }
+
   .news-mv-left .sm {
     width: 100%;
   }
+
   .news-mv-left-content {
     width: 49.688vw;
   }
+
   .news-mv-left-content h2 {
     padding-bottom: 1.563vw;
     font-size: 5vw;
   }
+
   .news-mv-left-content h2::after {
     width: 6.25vw;
     height: 0.313vw;
   }
+
   .news-mv-left-content p {
     line-height: 1.6;
     padding-top: 3.125vw;
@@ -1485,6 +1530,7 @@ main {
     width: 100%;
     padding-top: 6.094vw;
   }
+
   .news-mv-right h2 {
     width: 100%;
     padding-top: 0.938vw;
@@ -1492,6 +1538,7 @@ main {
     border-bottom: 0.313vw solid #ebeded;
     font-size: 3.75vw;
   }
+
   .news-mv-right-content {
     padding-top: 6.719vw;
   }
@@ -1499,21 +1546,25 @@ main {
   .news-mv-right-content h4 {
     padding-top: 1.563vw;
   }
+
   .news-mv-right-content p {
     font-size: 2.188vw;
     line-height: 1.4;
     padding-top: 0.625vw;
     padding-bottom: 7.5vw;
   }
+
   /* World News Sec02
 ===================== */
   .news-sec02 {
     padding: 9.688vw 0 7.656vw;
   }
+
   .news-sec02-left {
     float: none;
     width: 100%;
   }
+
   .news-sec02-left h2 {
     font-size: 3.75vw;
     line-height: 1.6;
@@ -1524,20 +1575,24 @@ main {
     float: none;
     width: 100%;
   }
+
   .news-sec02-right p {
     padding-top: 3.594vw;
     font-size: 2.188vw;
     line-height: 1.85;
   }
+
   /* World News Sec03
 ===================== */
   .news-sec03 .sm {
     width: 90.625vw;
   }
+
   .news-sec03-left {
     float: none;
     width: 100%;
   }
+
   .news-sec03-content {
     padding-top: 5.625vw;
     padding-bottom: 5vw;
@@ -1548,6 +1603,7 @@ main {
     font-size: 2.188vw;
     line-height: 1.87;
   }
+
   .news-sec03-content p:nth-child(2) {
     padding-top: 3.906vw;
   }
@@ -1561,16 +1617,19 @@ main {
     padding-top: 5vw;
     line-height: 1.86;
   }
+
   /* World News Sec04
 ===================== */
   .news-sec04 {
     padding: 9.063vw 0 12.344vw;
   }
+
   .news-sec04 .tabs li {
     width: 30.208vw;
     padding: 2.813vw 0;
     font-size: 2.188vw;
   }
+
   .news-sec04 .tab-content {
     padding-top: 4.531vw;
     padding-bottom: 0vw;

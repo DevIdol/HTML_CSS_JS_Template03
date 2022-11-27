@@ -89,24 +89,30 @@
 .footer-left .sec-title {
   float: left;
 }
+
 .footer-left .sec-title a {
   font-size: 13px;
   color: #fff;
   text-align: start;
 }
+
 .footer-left-lists {
   float: right;
 }
+
 .footer-left-lists ul {
   float: left;
   margin-right: 40px;
 }
+
 .footer-left-lists ul:last-child {
   margin-right: 0;
 }
+
 .footer-left-lists ul li {
   padding-bottom: 10px;
 }
+
 .footer-left-lists ul li a {
   color: #cbd0d3;
   font-size: 13px;
@@ -135,9 +141,11 @@
   outline: none;
   border-radius: 6px;
 }
+
 .footer-form form input::placeholder {
   color: #cbd0d3;
 }
+
 .footer-form form {
   position: relative;
 }
@@ -174,6 +182,7 @@
   float: left;
   margin-right: 32px;
 }
+
 .footer-right ul li:last-child {
   margin-right: 0;
 }
@@ -227,6 +236,7 @@
   .footer-left .sec-title a {
     font-size: 1.693vw;
   }
+
   .footer-left-lists ul {
     margin-right: 5.208vw;
   }
@@ -234,6 +244,7 @@
   .footer-left-lists ul li {
     padding-bottom: 1.302vw;
   }
+
   .footer-left-lists ul li a {
     font-size: 1.693vw;
   }
@@ -278,6 +289,7 @@
     padding-top: 6.25vw;
     margin-right: 3.125vw;
   }
+
   .footer-right ul li a img {
     width: 2.083vw;
     height: 2.083vw;
@@ -388,6 +400,7 @@
     width: 3.125vw;
     transform: translateY(-0.938vw) rotate(45deg);
   }
+
   /* Footer
 =============== */
   .footer {
@@ -402,6 +415,7 @@
   .footer-left .sec-title a {
     font-size: 2.031vw;
   }
+
   .footer-left-lists ul {
     margin-right: 6.25vw;
   }
@@ -409,6 +423,7 @@
   .footer-left-lists ul li {
     padding-bottom: 1.563vw;
   }
+
   .footer-left-lists ul li a {
     font-size: 2.031vw;
   }
@@ -453,6 +468,7 @@
     padding-top: 7.5vw;
     margin-right: 4.063vw;
   }
+
   .footer-right ul li a img {
     width: 2.5vw;
     height: 2.5vw;
