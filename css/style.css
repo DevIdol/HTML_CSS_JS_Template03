@@ -883,6 +883,7 @@ main {
   /*=====================
     Discovery Page
 =======================*/
+  .disc-avatar .avatar,
   .avatar {
     width: 5.208vw;
     height: 5.208vw;
@@ -1363,6 +1364,7 @@ main {
   /*=====================
     Discovery Page
 =======================*/
+  .disc-avatar .avatar,
   .avatar {
     width: 6.25vw;
     height: 6.25vw;
