@@ -1305,12 +1305,12 @@ main {
 
   .sec-happening .tabs {
     padding: 5.469vw 0 1.094vw;
-    width: 54.688vw;
+    width: 55.313vw;
   }
 
   .sec-happening .tabs li {
     font-size: 2.813vw;
-    margin-right: 7.188vw;
+    margin-right: 7.5vw;
   }
 
   .sec-happening .tabs li.activeTab::before,
