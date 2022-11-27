@@ -309,6 +309,9 @@ main {
 /*=====================
     Discovery Page
 =======================*/
+
+
+
 .disc-avatar img {
   float: left;
   width: 40px;
@@ -624,7 +627,45 @@ main {
 /* World News Sec04
 ===================== */
 .news-sec04 {
-  padding: 60px 0 60px;
+  padding: 40px 0 100px;
+}
+.news-sec04 .tabs li {
+  float: left;
+  color: #202124;
+  font-family: "Helvetica";
+  width: 234px;
+  padding: 16px 0;
+  font-weight: 700;
+  cursor: pointer;
+  text-align: center;
+  transition: 0.6s ease;
+  background-color: #fff;
+}
+.news-sec04 .tabs li.activeTab,
+.news-sec04 .tabs li:hover {
+  background-color: #a6adb4;
+  color: #fff;
+  transition: 0.6s ease;
+}
+.news-sec04 .tab-content {
+  background-color: #fff;
+  padding-top: 50px;
+  padding-bottom: 15px;
+}
+.tab-content {
+  display: none;
+}
+
+.tab-content.activeTab {
+  display: inherit;
+}
+.news-sec04 .tab-content p {
+  font-family: "Helvetica";
+  padding-bottom: 29px;
+  font-size: 14px;
+  width: 1060px;
+  margin: 0 auto;
+  line-height: 1.8;
 }
 
 /* iPad View
@@ -822,7 +863,7 @@ main {
   /*=====================
     Discovery Page
 =======================*/
-  .disc-avatar img {
+  .avatar {
     width: 5.208vw;
     height: 5.208vw;
   }
@@ -971,10 +1012,7 @@ main {
     width: 5.208vw;
     height: 0.26vw;
   }
-  .news-mv-left-content img {
-    width: 5.208vw;
-    height: 5.208vw;
-  }
+
   .news-mv-left-content p {
     line-height: 1.6;
     padding-top: 2.604vw;
@@ -1014,10 +1052,7 @@ main {
     float: none;
     width: 100%;
   }
-  .news-sec02-left img {
-    width: 5.208vw;
-    height: 5.208vw;
-  }
+
   .news-sec02-left h2 {
     font-size: 3.125vw;
     line-height: 1.6;
@@ -1064,6 +1099,28 @@ main {
   .news-sec03-right h2 {
     padding-top: 4.167vw;
     line-height: 1.86;
+  }
+
+  /* World News Sec04
+===================== */
+  .news-sec04 {
+    padding: 7.552vw 0 10.417vw;
+  }
+  .news-sec04 .tabs li {
+    width: 26.389vw;
+    padding: 2.344vw 0;
+    font-size: 1.823vw;
+  }
+  .news-sec04 .tab-content {
+    padding-top: 3.776vw;
+    padding-bottom: 0vw;
+  }
+
+  .news-sec04 .tab-content p {
+    padding-bottom: 3.776vw;
+    font-size: 1.823vw;
+    width: 71.354vw;
+    line-height: 1.8;
   }
 }
 
@@ -1268,7 +1325,7 @@ main {
   /*=====================
     Discovery Page
 =======================*/
-  .disc-avatar img {
+  .avatar {
     width: 6.25vw;
     height: 6.25vw;
   }
@@ -1422,10 +1479,6 @@ main {
     padding-top: 3.125vw;
     padding-bottom: 5.156vw;
   }
-  .news-mv-left-content img {
-    width: 6.25vw;
-    height: 6.25vw;
-  }
 
   .news-mv-right {
     float: none;
@@ -1461,10 +1514,6 @@ main {
     float: none;
     width: 100%;
   }
-  .news-sec02-left img {
-    width: 6.25vw;
-    height: 6.25vw;
-  }
   .news-sec02-left h2 {
     font-size: 3.75vw;
     line-height: 1.6;
@@ -1482,9 +1531,9 @@ main {
   }
   /* World News Sec03
 ===================== */
-.news-sec03 .sm {
-  width: 90.625vw;
-}
+  .news-sec03 .sm {
+    width: 90.625vw;
+  }
   .news-sec03-left {
     float: none;
     width: 100%;
@@ -1511,5 +1560,26 @@ main {
   .news-sec03-right h2 {
     padding-top: 5vw;
     line-height: 1.86;
+  }
+  /* World News Sec04
+===================== */
+  .news-sec04 {
+    padding: 9.063vw 0 12.344vw;
+  }
+  .news-sec04 .tabs li {
+    width: 30.208vw;
+    padding: 2.813vw 0;
+    font-size: 2.188vw;
+  }
+  .news-sec04 .tab-content {
+    padding-top: 4.531vw;
+    padding-bottom: 0vw;
+  }
+
+  .news-sec04 .tab-content p {
+    padding-bottom: 4.531vw;
+    font-size: 2.188vw;
+    width: 81.25vw;
+    line-height: 1.8;
   }
 }

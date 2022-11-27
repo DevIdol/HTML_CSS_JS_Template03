@@ -44,13 +44,15 @@ $(document).ready(function () {
       },
     ],
   });
-
-  //===== Tab =====
-  $("ul.tabs li").click(function () {
-    var tab_id = $(this).attr("data-tab");
-    $("ul.tabs li").removeClass("activeTab");
-    $(".tab-content").removeClass("activeTab");
-    $(this).addClass("activeTab");
-    $("#" + tab_id).addClass("activeTab");
-  });
+});
+//===== Tab =====
+$("ul.tabs li").click(function () {
+  var tab_id = $(this).attr("data-tab");
+  $("ul.tabs li").removeClass("activeTab");
+  $(".tab-content").removeClass("activeTab");
+  $(this).addClass("activeTab");
+  $("#" + tab_id).addClass("activeTab");
+});
+$("#header h1 a").on("click", function () {
+  alert("This is Tab");
 });
