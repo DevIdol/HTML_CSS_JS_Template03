@@ -53,6 +53,3 @@ $("ul.tabs li").click(function () {
   $(this).addClass("activeTab");
   $("#" + tab_id).addClass("activeTab");
 });
-$("#header h1 a").on("click", function () {
-  alert("This is Tab");
-});
