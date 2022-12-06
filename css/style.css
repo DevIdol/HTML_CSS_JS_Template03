@@ -1,26 +1,4 @@
-@font-face {
-  font-family: "Helvetica";
-  font-weight: 700;
-  src: url("../font/Helvetica-Bold.ttf");
-}
 
-@font-face {
-  font-family: "Helvetica";
-  font-weight: 400;
-  src: url("../font/Helvetica.ttf");
-}
-
-@font-face {
-  font-family: "Roboto";
-  font-weight: 700;
-  src: url("../font/Roboto-Bold.ttf");
-}
-
-@font-face {
-  font-family: "Roboto";
-  font-weight: 400;
-  src: url("../font/Roboto-Regular.ttf");
-}
 
 body {
   background-color: #fff;
@@ -410,7 +388,7 @@ main {
   border-radius: 6px;
 }
 
-.disc-mv-bottom-right h3 a {
+.disc-mv-bottom-right h3 {
   text-align: left;
   color: #fa6980;
   text-transform: uppercase;

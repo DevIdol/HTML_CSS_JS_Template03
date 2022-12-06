@@ -1,3 +1,27 @@
+@font-face {
+  font-family: "Helvetica";
+  font-weight: 700;
+  src: url("../font/Helvetica-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Helvetica";
+  font-weight: 400;
+  src: url("../font/Helvetica.ttf");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-weight: 700;
+  src: url("../font/Roboto-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-weight: 400;
+  src: url("../font/Roboto-Regular.ttf");
+}
+
 .sec-title {
   color: #202124;
   font-size: 24px;
@@ -26,7 +50,7 @@
 
 /* Header
 =========== */
-#header {
+.header {
   position: fixed;
   top: 0;
   left: 0;
@@ -36,16 +60,16 @@
   z-index: 99;
 }
 
-#header h1 {
+.header h1 {
   float: left;
 }
 
-#header h1 a {
+.header h1 a {
   font-size: 13px;
   color: #fa6989;
 }
 
-#header nav {
+.header nav {
   float: right;
 }
 
@@ -206,11 +230,11 @@
     border: 0.13vw solid #fa6980;
   }
 
-  #header {
+  .header {
     padding: 2.604vw 0 2.214vw 0;
   }
 
-  #header h1 a {
+  .header h1 a {
     font-size: 1.693vw;
   }
 
@@ -315,20 +339,20 @@
     border: 0.156vw solid #fa6980;
   }
 
-  #header {
+  .header {
     padding: 2.969vw 0 2.656vw 0;
   }
 
-  #header h1 {
+  .header h1 {
     float: none;
   }
 
-  #header h1 a {
+  .header h1 a {
     text-align: start;
     font-size: 2.031vw;
   }
 
-  #header nav {
+  .header nav {
     background-color: #f6f8f9;
     float: none;
     position: absolute;
@@ -354,7 +378,7 @@
     margin-right: 0;
   }
 
-  #header .menu-toggle {
+  .header .menu-toggle {
     display: block;
     position: fixed;
     width: 2.5vw;
@@ -364,7 +388,7 @@
     cursor: pointer;
   }
 
-  #header .menu-toggle span {
+  .header .menu-toggle span {
     position: absolute;
     background-color: #343638;
     width: 2.5vw;
@@ -373,29 +397,29 @@
     transition: 0.6s ease;
   }
 
-  #header .menu-toggle span:nth-child(1) {
+  .header .menu-toggle span:nth-child(1) {
     top: 0;
   }
 
-  #header .menu-toggle span:nth-child(2) {
+  .header .menu-toggle span:nth-child(2) {
     top: 0.938vw;
   }
 
-  #header .menu-toggle span:nth-child(3) {
+  .header .menu-toggle span:nth-child(3) {
     top: 1.875vw;
   }
 
-  #header .menu-toggle.active span:nth-child(1) {
+  .header .menu-toggle.active span:nth-child(1) {
     right: -0.313vw;
     width: 3.125vw;
     transform: translateY(0.938vw) rotate(-45deg);
   }
 
-  #header .menu-toggle.active span:nth-child(2) {
+  .header .menu-toggle.active span:nth-child(2) {
     opacity: 0;
   }
 
-  #header .menu-toggle.active span:nth-child(3) {
+  .header .menu-toggle.active span:nth-child(3) {
     right: -0.313vw;
     width: 3.125vw;
     transform: translateY(-0.938vw) rotate(45deg);

@@ -7,15 +7,15 @@ $(document).ready(function () {
         } else {
             $(this).addClass("active");
         }
-        $("#header nav").stop().animate(
+        $(".header nav").stop().animate(
             {
                 top: topVal,
             },
             500
         );
-        $("#header nav>ul>li>a").click(function () {
+        $(".header nav>ul>li>a").click(function () {
             $(".menu-toggle").removeClass("active");
-            $("#header nav").stop().animate(
+            $(".header nav").stop().animate(
                 {
                     top: -980,
                 },
